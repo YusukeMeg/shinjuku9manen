@@ -1,0 +1,11 @@
+{ "name": "clearFromNightmare",
+  "manifest_version": 2,
+  "version": "1",
+  "content_scripts": [
+   {
+     "matches": ["https://*.com/"],
+     "js": ["jquery-3.3.1.min.js","background.js"],
+     "run_at": "document_idle"
+   }]
+
+}
